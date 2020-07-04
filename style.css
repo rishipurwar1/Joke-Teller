@@ -8,18 +8,19 @@
 
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background: url(robot.gif) no-repeat;
     background-color: #45BADD;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 button {
     cursor: pointer;
     padding: 15px 60px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     font-size: 20px;
     font-weight: 600;
     border: black 4px solid;
